@@ -15,7 +15,7 @@ O repositório está organizado por disciplinas e atividades para facilitar a na
 - **Lógica de Programação e Algoritmos**
   - `Agenda06/` - Sistema de Desconto Progressivo em Python (Estruturas de Decisão)
   - `Agenda07/` - Sistema de Classificação de Consumo de Água (Estruturas Condicionais)
-  - `AgendaPesquisaOpiniao/` - Sistema de Pesquisa de Satisfação TudoWeb (Estruturas de Repetição e Condicionais)
+  - `Agenda08/` - Sistema de Pesquisa de Satisfação TudoWeb (Estruturas de Repetição e Condicionais)
   - *(Futuras pastas entrarão aqui)*
 
 ## 🚀 Tecnologias Utilizadas
