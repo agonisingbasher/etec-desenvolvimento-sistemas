@@ -35,4 +35,4 @@ O sistema aplica os seguintes conceitos de programação:
 3. Abra o terminal na pasta onde o arquivo está salvo e execute o seguinte comando:
 
 ```bash
-python pesquisa_opiniao_tudoweb.py
+python FelipeAlexandre_Ag8_DS_I.py.py
