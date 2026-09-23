@@ -14,15 +14,36 @@ O repositório está organizado por disciplinas e atividades para facilitar a na
 
 - **Lógica de Programação e Algoritmos**
   - `Agenda06/` - Sistema de Desconto Progressivo em Python (Estruturas de Decisão)
-  - `consumo-agua/` - Sistema de Classificação de Consumo de Água (Estruturas Condicionais)
+  - `Agenda07/` - Sistema de Classificação de Consumo de Água (Estruturas Condicionais)
+  - `AgendaPesquisaOpiniao/` - Sistema de Pesquisa de Satisfação TudoWeb (Estruturas de Repetição e Condicionais)
   - *(Futuras pastas entrarão aqui)*
 
 ## 🚀 Tecnologias Utilizadas
 
 Até o momento, as atividades deste repositório exploram:
-- **Python 3** (Lógica, Condicionais, Operadores Matemáticos, Tratamento de Erros)
+- **Python 3** (Lógica de Programação, Estruturas de Repetição, Condicionais, Operadores Matemáticos e Tratamento de Erros)
+
+---
 
 ## 📌 Projetos em Destaque
+
+### 📊 Sistema de Pesquisa de Satisfação - TudoWeb (Nova Atividade)
+<p align="left">
+  <img src="https://img.shields.io/badge/Pesquisa-Satisfação-orange?style=flat-square&logo=poll" alt="Pesquisa">
+  <img src="https://img.shields.io/badge/Lógica-Python-yellow?style=flat-square&logo=python" alt="Python">
+</p>
+
+Programa desenvolvido em Python para a empresa de marketing *TudoWeb* com o objetivo de coletar, estruturar e exibir o retorno de uma pesquisa de atendimento ao cliente realizada com múltiplos entrevistados.
+
+- **Regras implementadas:**
+  - Coleta de dados individuais (nome, idade e opinião do cliente).
+  - Validação da escala de atendimento (1: Excelente, 2: Bom, 3: Ruim).
+  - Uso de laços de repetição (`for`) para dimensionar a amostragem de entrevistados.
+  - Estruturas de decisão (`if/elif/else`) para contagem precisa das respostas.
+  - Relatório final automatizado exibindo as quantidades exatas de avaliações "EXCELENTE" e "RUIM".
+- **Arquivo:** `pesquisa_opiniao_tudoweb.py`
+
+---
 
 ### 💧 Sistema de Classificação de Consumo de Água (Agenda 7)
 <p align="left">
@@ -39,7 +60,14 @@ Um sistema desenvolvido em Python para a companhia de saneamento municipal com o
   - **Outros casos:** Consumo excessivo com alerta para verificação de vazamentos.
 - **Arquivos:** `FelipeAlexandre_Ag7_DS_I.py` e subpasta `consumo-agua/app.py`.
 
+---
+
 ### 🛒 Sistema de Desconto Progressivo (Agenda 6)
+<p align="left">
+  <img src="https://img.shields.io/badge/Loja-Vendas-green?style=flat-square&logo=shoppingcart" alt="Vendas">
+  <img src="https://img.shields.io/badge/Lógica-Python-yellow?style=flat-square&logo=python" alt="Python">
+</p>
+
 Um sistema de caixa de loja online desenvolvido em Python que calcula descontos automáticos baseados no valor total da compra.
 - **Regras:** 5% para compras < R$ 200; 10% entre R$ 200 e R$ 299,99; 15% para >= R$ 300.
 - **Arquivo:** `FelipeAlexandre_Ag6_DS_I.py`
