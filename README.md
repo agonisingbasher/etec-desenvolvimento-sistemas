@@ -16,18 +16,37 @@ O repositório está organizado por disciplinas e atividades para facilitar a na
   - `Agenda06/` - Sistema de Desconto Progressivo em Python (Estruturas de Decisão)
   - `Agenda07/` - Sistema de Classificação de Consumo de Água (Estruturas Condicionais)
   - `Agenda08/` - Sistema de Pesquisa de Satisfação TudoWeb (Estruturas de Repetição e Condicionais)
+  - `Agenda11/` - Sistema de Monitoramento de Reservatório de Água (Listas e Biblioteca Colorama)
   - *(Futuras pastas entrarão aqui)*
 
 ## 🚀 Tecnologias Utilizadas
 
 Até o momento, as atividades deste repositório exploram:
-- **Python 3** (Lógica de Programação, Estruturas de Repetição, Condicionais, Operadores Matemáticos e Tratamento de Erros)
+- **Python 3** (Lógica de Programação, Estruturas de Repetição, Condicionais, Operadores Matemáticos, Tratamento de Erros e Manipulação de Terminal com bibliotecas externas)
+- **Colorama** (Biblioteca para colorir e estilizar saídas no terminal)
 
 ---
 
 ## 📌 Projetos em Destaque
 
-### 📊 Sistema de Pesquisa de Satisfação - TudoWeb (Nova Atividade)
+### 🌊 Sistema de Monitoramento de Reservatório de Água (Agenda 11)
+<p align="left">
+  <img src="https://img.shields.io/badge/Monitoramento-Reservatório-cyan?style=flat-square&logo=analytics" alt="Monitoramento">
+  <img src="https://img.shields.io/badge/Python-Colorama-yellow?style=flat-square&logo=python" alt="Python">
+</p>
+
+Sistema simples em Python executado no terminal para monitorar os níveis de um reservatório de água, exibindo mensagens de alerta com cores dinâmicas baseadas na gravidade da situação.
+
+- **Regras implementadas:**
+  - Uso de **Listas** para armazenar as 5 mensagens de alerta referentes a cada nível do reservatório.
+  - Integração com a biblioteca **`colorama`** para aplicar cores específicas no console.
+  - Progressão visual de risco: Vermelho (crítico), Amarelo (baixo), Verde (médio), Ciano (alto) e Azul (alerta).
+  - Função modularizada para definição da cor e restauração automática do estilo padrão do terminal após a exibição.
+- **Arquivo:** `FelipeAlexandre_Ag11_DSI.py`
+
+---
+
+### 📊 Sistema de Pesquisa de Satisfação - TudoWeb (Agenda 8)
 <p align="left">
   <img src="https://img.shields.io/badge/Pesquisa-Satisfação-orange?style=flat-square&logo=poll" alt="Pesquisa">
   <img src="https://img.shields.io/badge/Lógica-Python-yellow?style=flat-square&logo=python" alt="Python">
@@ -73,4 +92,4 @@ Um sistema de caixa de loja online desenvolvido em Python que calcula descontos 
 - **Arquivo:** `FelipeAlexandre_Ag6_DS_I.py`
 
 ---
-*Desenvolvido por Felipe Alexandre durante o curso técnico.*
+*Desenvolvido por Felipe Alexandre durante o curso técnico em Desenvolvimento de Sistemas.*
